@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculater</string>
+    <string name="squared_power">x<sup><small>y</small></sup></string>
+</resources>
