@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+>
 
     <LinearLayout
 
@@ -21,7 +22,7 @@
             android:layout_weight="1"
             android:background="#D5DBDB"
             android:hint="Enter the calculation"
-            android:textSize="30sp" />
+            android:textSize="@dimen/_24sdp" />
 
     </LinearLayout>
 
@@ -41,50 +42,50 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="C"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_multiplication"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="×"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_div"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="÷"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_closeBracket"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text=")"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_deleteOneChar"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="⌫"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
         </TableRow>
 
         <TableRow
@@ -97,37 +98,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="7"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
+                android:textColor="@color/white"
                 android:text="8"
-                android:textSize="34sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
+                android:textColor="@color/white"
                 android:text="9"
-                android:textSize="34sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_add"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="+"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
         </TableRow>
 
         <TableRow
@@ -140,37 +144,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="4"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="5"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="6"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_sub"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="-"
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
         </TableRow>
 
         <TableRow
@@ -183,37 +190,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="1"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="2"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="3"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_openBracket"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#444444"
+                android:background="@color/gray"
                 android:text="("
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
 
         </TableRow>
 
@@ -227,29 +237,30 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#F75A01"
+                android:background="@color/gray"
                 android:text="."
                 android:textColor="@color/white"
-                android:textSize="24sp" />
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_zero"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#D5DBDB"
+                android:background="@color/gray"
                 android:text="0"
-                android:textSize="34sp" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/_24sdp" />
 
             <Button
                 android:id="@+id/main_btn_equal"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:background="#F75A01"
+                android:background="@color/gray"
                 android:text="="
                 android:textColor="@color/white"
-                android:textSize="30sp" />
+                android:textSize="@dimen/_24sdp" />
         </TableRow>
 
     </TableLayout>

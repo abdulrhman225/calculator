@@ -22,7 +22,7 @@
             android:background="#D5DBDB"
             android:hint="Enter the calculation"
             android:textAlignment="viewStart"
-            android:textSize="30sp" />
+            android:textSize="@dimen/_24sdp" />
 
     </LinearLayout>
 
@@ -47,22 +47,22 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="abs"
                     android:text="|x|"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
 
                 <Button
                     android:id="@+id/main_btn_sqrt"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="sqrt"
                     android:text="√"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
             </TableRow>
 
             <TableRow
@@ -75,22 +75,22 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="sqPow"
                     android:text="x²"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
 
                 <Button
                     android:id="@+id/main_btn_PwCb"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="power"
                     android:text="@string/squared_power"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
             </TableRow>
 
             <TableRow
@@ -103,24 +103,24 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="sine"
                     android:text="sin("
                     android:textAllCaps="false"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
 
                 <Button
                     android:id="@+id/main_btn_Cos"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="cos"
                     android:text="cos("
                     android:textAllCaps="false"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
 
             </TableRow>
 
@@ -134,24 +134,24 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="tan"
                     android:text="tan("
                     android:textAllCaps="false"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
 
                 <Button
                     android:id="@+id/main_btn_log"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#303030"
+                    android:background="@color/dark_gray"
                     android:onClick="log"
                     android:text="log"
                     android:textAllCaps="false"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
             </TableRow>
 
             <TableRow
@@ -176,50 +176,50 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="C"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_multiplication"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="×"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_div"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="÷"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_closeBracket"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text=")"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_deleteOneChar"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="⌫"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
             </TableRow>
 
             <TableRow
@@ -232,40 +232,40 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="7"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="8"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_9"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="9"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_add"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="+"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
             </TableRow>
 
             <TableRow
@@ -278,40 +278,40 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="4"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="5"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="6"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_sub"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="-"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
             </TableRow>
 
             <TableRow
@@ -324,40 +324,40 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="1"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="2"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="3"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_openBracket"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="("
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
             </TableRow>
 
@@ -371,30 +371,30 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="."
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_zero"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="0"
-                    android:textColor="#FFFFFF"
-                    android:textSize="34sp" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_24sdp" />
 
                 <Button
                     android:id="@+id/main_btn_equal"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:background="#444444"
+                    android:background="@color/gray"
                     android:text="="
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/_24sdp" />
             </TableRow>
 
         </TableLayout>
